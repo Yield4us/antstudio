@@ -1,0 +1,125 @@
+.container {
+	
+}
+.main {
+	
+}
+
+#top_bg {
+	position: fixed; 
+	
+  	top: 0; 
+  	left: 0; 
+	
+  	min-width: 100%;
+  	min-height: 100%;
+}
+
+.top_logo {
+  	background-image: url(images/top/top_logo.png);
+  	width: 378px;
+  	height: 379px;
+  	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.top_rectangle { 
+  	background-color: rgba(241, 90, 41, 0.651);
+  	position:relative;
+  	left: 0;
+  	right: 0;
+  	top: 372px;
+  	width: 1023px;
+  	height: 165px;
+ 	margin-left: auto;
+	margin-right: auto;
+}
+
+.top_text { 
+  	position: absolute; 
+  	top:10px;
+  	display: table; 
+}
+
+.top_text p {
+  	display: table-cell; 
+  	vertical-align: middle; 
+  	font-size: 54.28px;
+  	font-family: "Century Gothic";
+  	color: rgb( 255, 255, 255 );
+  	text-align: center;
+}
+
+.menu {
+  	background-color: rgb( 65, 64, 66 );
+  	box-shadow: 3.5px 6.062px 18px 0px rgb( 0, 0, 0 );
+  	position: absolute;
+  	top: 591px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+  	width: 1024px;
+  	height: 40px;
+}
+
+.left_menu{
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none; 
+}
+
+.right_menu{
+	float: right;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none; 
+}
+
+.menu ul li {
+	float: left; 
+}
+
+.menu ul li a {
+	font-size: 20px;
+  	font-family: "Century Gothic";
+  	color: rgb( 255, 255, 255 );
+  	text-align: left;
+  
+	display: block;
+	padding: 8px 10px;
+	text-decoration: none;
+}
+
+.left_menu li {
+	padding: 0px 5px;
+}
+
+.menu_logo {
+  	background-image: url(images/menu/menu_logo.png);
+  	float: left;
+  	width: 62px;
+  	height: 62px;
+  	margin-top:-10px;
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+
+portfolio_bg {
+  background-color: rgb( 241, 90, 41 );
+  position: absolute;
+  left: -2px;
+  top: 631px;
+}
+
+
+
+
