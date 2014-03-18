@@ -1,50 +1,42 @@
-.container {
-	
-}
-.main {
-	
+body {
+	margin:0;
 }
 
-#top_bg {
+#main {
+	position:relative;
+}
+
+/*Основной фоновый рисунок*/
+#full_bg {
 	position: fixed; 
-	
   	top: 0; 
-  	left: 0; 
-	
+  	z-index: -1;
+	left: 0;	
   	min-width: 100%;
-  	min-height: 100%;
-  	z-index: -2;
 }
 
+/*Главный логотип*/
 .top_logo {
   	background-image: url(images/top/top_logo.png);
   	width: 378px;
   	height: 379px;
-  	position: absolute;
-	top:0;
-	bottom: 0;
-	left: 0;
-	right: 0;
 	margin-left: auto;
 	margin-right: auto;
 }
 
+/*Надпись - Создание и поддержка сайтов Дизайн*/
 .top_rectangle { 
   	background-color: rgba(241, 90, 41, 0.651);
   	position:relative;
-  	left: 0;
-  	right: 0;
-  	top: 372px;
-  	width: 1023px;
   	height: 165px;
- 	margin-left: auto;
-	margin-right: auto;
 }
 
 .top_text { 
-  	position: absolute; 
-  	top:10px;
+	margin:auto;
+	width: 1023px;
+	height: 165px;
   	display: table; 
+  	vertical-align: middle;
 }
 
 .top_text p {
@@ -55,19 +47,30 @@
   	color: rgb( 255, 255, 255 );
   	text-align: center;
 }
+/*---------------------------------------------*/
 
+/*Меню ----------------------------------------*/
 .menu {
   	background-color: rgb( 65, 64, 66 );
   	box-shadow: 3.5px 6.062px 18px 0px rgb( 0, 0, 0 );
-  	position: absolute;
-  	top: 591px;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	margin-left: auto;
-	margin-right: auto;
+  	margin:0 auto 0 auto; /*54*/
   	width: 1024px;
   	height: 40px;
+  	z-index:100;
+  	position:absolute; 
+	top:591px;
+	left:0;
+	right: 0;
+	bottom:0;
+}
+
+.menu.landingFix {
+	position:fixed;
+	width: 1024px;
+	top:0;
+	left:0;
+	right: 0;
+	bottom:0;
 }
 
 .left_menu{
@@ -112,19 +115,63 @@
 	margin-left: 10px;
 	margin-right: auto;
 }
+/*----------------------------------------------*/
 
-
-#portfolio_bg {
-  	background-color: rgb( 241, 90, 41 );
-  	position: absolute;
-  	left: -2px;
-  	top: 631px;
-  	position: fixed; 
-
-  	left: 0; 
+/*Общие характеристики всех главных фоновых блоков*/
+#uslugi_bg, #portfolio_bg, #budget_bg ,#imige_bg, #contacts_bg, #bottom_bg {
+	left: 0;	
   	min-width: 100%;
-  	min-height: 100%;
-  	z-index: -1;
+	position: relative;
+}
+
+/*-----------------Услуги-----------------------*/
+#uslugi_bg {
+	margin-top:87px;
+  	background-color: rgb( 65, 64, 66 );
+  	height: 994px;
+}
+/*----------------------------------------------*/
+
+
+/*-----------------Портфолио--------------------*/
+#portfolio_bg {
+  	background-color: rgba( 241, 90, 41, 0.478);
+  	height: 732px;
+  	margin-top:65px;
+}
+/*---------------------------------------------*/
+
+
+/*-----------------Бюджет----------------------*/
+#budget_bg {
+  	background-color: rgba( 230, 231, 232,0.702 );
+  	height: 842px;
+  	margin-top:65px;
+}
+/*---------------------------------------------*/
+
+
+/*------------------Имидж----------------------*/
+#imige_bg {
+  	background-color: rgb( 241, 90, 41 );
+  	height: 842px;
+  	margin-top:85px;
+}
+/*---------------------------------------------*/
+
+
+/*------------------Контакты-------------------*/
+#contacts_bg {
+  	background-color: rgb( 65, 64, 66 );
+  	height: 589px;
+  	margin-top:339px;
+}
+/*---------------------------------------------*/
+
+
+#bottom_bg {
+ 	background-color: rgb( 213, 108, 74 );
+  	height: 20px;
 }
 
 
