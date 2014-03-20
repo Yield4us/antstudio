@@ -1,14 +1,9 @@
 <?
-$err=0;
-if (strlen(trim($name))==0) $err=1;
-if (strlen(trim($email))==0) $err=1;
-if (strlen(trim($text))==0) $err=1;
-if ($err==1){
-echo "Ошибка! Заполнены не все поля формы!";
-} else {
-mail("email@domen.ru", "Тема письма", "$text", "From: $name <$email>");
-?>
-Заявка успешно отправлена.
-<?
+if (isset ($_POST['messageFF'])) {
+  mail ("ayan_9999@mail.ru",
+        "заполнена контактная форма с ".$_SERVER['HTTP_REFERER'],
+        "Имя: ".$_POST['nameFF']."\nEmail: ".$_POST['contactFF']."\nКонтактный телефон: ".$_POST['phone']."\nСообщение: ".$_POST['messageFF']);
+  echo ('<p style="color: green">Ваше сообщение получено, спасибо!</p>');
+  $_POST['nameFF'] = $_POST['contactFF'] = $_POST['phone'] = $_POST['messageFF'] = '';
 }
 ?>
