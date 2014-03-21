@@ -360,7 +360,7 @@ left: 43%; background-color:#c5532f;display:none;z-index:999
   max-width: 400px;
   padding: 2%;
   border-radius: 3px;
-
+ background-color: gold;
 }
 #feedback-form [required] {
   width: 100%;
