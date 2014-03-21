@@ -120,8 +120,7 @@ body {
 /*Îáùèå õàðàêòåðèñòèêè âñåõ ãëàâíûõ ôîíîâûõ áëîêîâ*/
 #uslugi_bg, #portfolio_bg, #budget_bg ,#imige_bg, #contacts_bg, #bottom_bg {
 	left: 0;	
-  	min-width: 100%;
-	position: relative;
+	-position: relative;
 }
 
 /*-----------------Services region-----------------------*/
@@ -131,11 +130,12 @@ body {
   	height: 994px;
 }
 .us{
+	position: relative;
 	margin-left:auto;
-	margin-right:auto;
-	position:relative;
-  	width:1024;
+	margin-right:auto;	
+  	width:1024px;
   	height: 994px;
+  	border:1px solid red;
 }
 
 .uslugi{
@@ -152,6 +152,7 @@ body {
 }
 
 .layer1{
+	border: 1px solid red;
 	position: relative;
 	left: 478;
 	top: 3;
@@ -179,6 +180,7 @@ body {
 }
 
 .layer5{
+	border: 1px solid red;
 	position: relative;
 	top: -196;
 	left: 860;
@@ -212,6 +214,8 @@ body {
 	position: relative;
 	top: 12;
 	left: 215;
+	
+  	border:1px solid red;
 }
 
 .PO p,.Dizain p,.SMM p,.TD p,.Video p,.PHP p{
