@@ -354,7 +354,12 @@ left: 43%; background-color:#c5532f;display:none;z-index:999
 /*----Всплыващие окна Портфолио---------*/
 .portfolio_none_block{
 	display: none;
+  width: auto;
+  height:auto;
+  overflow:auto;
 }
+
+
 /*------Форма при нажатий на плюс ПОРТФОЛИО---------------*/
 #feedback-form {
   max-width: 400px;
