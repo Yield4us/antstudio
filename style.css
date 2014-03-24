@@ -458,16 +458,19 @@ body {
  	display: table; 
  	vertical-align: middle;
 }
+.portfolio_glav{
+  margin-top:500px;
+}
 .portfolio_h1 p {
 
-  	margin:100px auto;
+  margin:100px;
  	display: table-cell; 
- 	vertical-align: middle; 
  	font-size: 54.28px;
  	font-family: "Century Gothic";
  	color: rgb( 255, 255, 255);
  	text-align: center;
-}
+
+  }
 .portfolio_form p {
  	display: table-cell; 
  	vertical-align: middle; 
@@ -475,6 +478,7 @@ body {
  	font-family: "Century Gothic";
  	color: rgb( 10, 10, 10 );
  	text-align: center;
+
 }
 /*----Всплыващие окна Портфолио---------*/
 .portfolio_none_block{
