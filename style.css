@@ -67,7 +67,7 @@ body {
 .menu.landingFix {
 	position:fixed;
 	width: 1024px;
-	top:0;
+	top:10;
 	left:0;
 	right: 0;
 	bottom:0;
@@ -112,7 +112,7 @@ body {
   	width: 62px;
   	height: 62px;
   	margin-top:-10px;
-	margin-left: 16px;
+	margin-left: 30px;
 	margin-right: auto;
 }
 /*----------------------------------------------*/
@@ -120,7 +120,7 @@ body {
 /*Îáùèå õàðàêòåðèñòèêè âñåõ ãëàâíûõ ôîíîâûõ áëîêîâ*/
 #uslugi_bg, #portfolio_bg, #budget_bg ,#imige_bg, #contacts_bg, #bottom_bg {
 	left: 0;	
-	-position: relative;
+	position: relative;
 }
 
 /*-----------------Services region-----------------------*/
@@ -135,11 +135,12 @@ body {
 	margin-right:auto;	
   	width:1024px;
   	height: 994px;
-  	border:1px solid red;
+  	
+	border: 1px solid transparent;
 }
 
 .uslugi{
-	position:relative;
+	position:abosulte;
 	margin-left:auto;
 	margin-right:auto;
 	width: 200px;
@@ -152,14 +153,21 @@ body {
 }
 
 .layer1{
-	border: 1px solid red;
+	
 	position: relative;
 	left: 478;
 	top: 3;
 }
 
-.layer1 img:hover,.layer2 img:hover,.layer3 img:hover,.layer4 img:hover,.layer5 img:hover,.layer6 img:hover,.layer7 img:hover{
+.layer1 img:hover,
+.layer2 img:hover,
+.layer3 img:hover,
+.layer4 img:hover,
+.layer5 img:hover,.layer6 img:hover,.layer7 img:hover{
 	opacity:0.4;
+}
+.layer1,.layer2,.layer3,.layer4 ,.layer5 ,.layer6 ,.layer7{
+	width: 100px;
 }
 
 .layer2{
@@ -180,7 +188,7 @@ body {
 }
 
 .layer5{
-	border: 1px solid red;
+	
 	position: relative;
 	top: -196;
 	left: 860;
@@ -210,29 +218,47 @@ body {
   	font-family: Century Gothic;
 }
 
+.PHP___PS {
+  font-size: 49px;
+  font-family: "Century Gothic";
+  color: rgb( 221, 87, 44 );
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  position: absolute;
+  left: 692.443px;
+  top: 1416.909px;
+  width: 199px;
+  height: 37px;
+  z-index: 70;
+}
+
+
 .PO{
 	position: relative;
 	top: 12;
 	left: 215;
-	
-  	border:1px solid red;
+	width:144px;
+  	
 }
 
 .PO p,.Dizain p,.SMM p,.TD p,.Video p,.PHP p{
   	font-family: Century Gothic;
 	color: white;
 	font-size: 20;
+	
 }
 
 .Dizain{
 	position: relative;
 	top: -118;
+	width:100px;
 	left: 695;
 }
 
 .SMM{
 	position: relative;
-	width: 210;
+	width: 215;
 	top: -56;
 	left: 29;
 }
@@ -245,6 +271,7 @@ body {
 	position: relative;
 	top: -207;
 	left: 845;
+	width:100px;
 }
 
 .Video{
@@ -262,6 +289,7 @@ body {
 	position: relative;
 	top: -220;
 	left: 381;
+	width:273px;
 }
 
 .hight-layout{
@@ -278,12 +306,17 @@ body {
 }
 
 .lay1,.lay2,.lay3,.lay4,.lay5,.lay6,.lay7{
-  position: fixed;
-width: 255px;
-height: 193px;
-border: 1px solid;
-top: 35%;
-left: 43%; background-color:#c5532f;display:none;z-index:999
+  	position: fixed;
+	width: 400px;
+	
+	/*border: 1px solid;*/
+	top: 35%;
+	left: 40%; background-color:#c5532f;display:none;z-index:999
+}
+.lay1 ul li,.lay2 ul li,.lay3 ul li,.lay4 ul li,.lay5 ul li,.lay6 ul li{
+    font-family:Century gothic;
+    font-size:31px;
+    color: white;
 }
 
 /*----------------------------------------------*/
@@ -304,6 +337,94 @@ left: 43%; background-color:#c5532f;display:none;z-index:999
   	height: 842px;
   	margin-top:65px;
 }
+
+.budget_container{
+	border:1px solid transparent;
+}
+
+.budget_types .head_image {
+	width: 290px;
+  	height: 289px;
+  	position:absolute;
+}
+
+.standard_foot, .premium_foot, .vip_foot {
+	margin-top: 144px;
+	width: 289px;
+  	height: 478px;
+	position: absolute;
+}
+
+
+.budget_container{
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+  	width:1024px;
+  	min-height: 100%;
+  	height:30%;
+}
+
+.budget_h1 {
+  	font-size: 56px;
+  	font-family: "Century Gothic";
+  	color: rgb( 65, 64, 66 );
+  	text-align: center;
+  	position: relative;
+  	margin-top: 56px;
+  	margin-bottom: 56px;
+  	width: 100%;
+}
+
+.budget_types{
+	position:relative;
+	width: 100%;
+	min-height: 75%;
+}
+
+.standard{
+	left: 16px;
+	position:absolute;
+}
+
+.standard .head_image {
+	background-image:url(images/budget/ant_budget_standard.png);
+}
+
+.standard_foot {
+	background-color: rgb( 171, 88, 69 );
+}
+
+.premium{
+  	left: 368px;
+  	position:absolute;
+}
+
+.premium .head_image {
+	background-image:url(images/budget/ant_budget_premium.png);
+}
+
+.premium_foot {
+	background-color: rgb( 128, 144, 155 );
+}
+
+.vip{
+  	left: 721px;
+  	position:absolute;
+}
+
+.vip .head_image {
+	background-image:url(images/budget/ant_budget_vip.png);
+}
+
+.vip_foot {
+	background-color: rgb( 244, 170, 13 );
+}
+
+
+
+
+
 /*---------------------------------------------*/
 
 
@@ -390,12 +511,12 @@ left: 43%; background-color:#c5532f;display:none;z-index:999
   transition: .2s linear;
 }
 #feedback-form [type="submit"] {
-  padding: 2%;
-  border: none;
-  border-radius: 3px;
-  box-shadow: 0 0 0 1px rgba(0,0,0,.2) inset;
-  background: #669acc;
-  color: #fff;
+  	padding: 2%;
+  	border: none;
+  	border-radius: 3px;
+  	box-shadow: 0 0 0 1px rgba(0,0,0,.2) inset;
+  	background: #669acc;
+  	color: #fff;
 }
 #feedback-form [type="submit"]:hover {
   background: #5c90c2;
@@ -680,4 +801,43 @@ left: 43%; background-color:#c5532f;display:none;z-index:999
     background-image: url('images/fancybox_img/fancybox_loading@2x.gif');
     background-size: 24px 24px; /*The size of the normal image, half the size of the hi-res image*/
   }
+}
+
+/*  Contacts */
+#contacts{
+top:-450px;
+position:relative;
+
+}
+#contacts2{
+
+position:absolute;
+left:20px;
+top:600px;
+text-decoration:none;
+}
+.service{
+
+color:FFFFFF;
+size:5;
+
+}
+#services{
+position:absolute;
+left:800px;
+top:600px;
+
+}
+#text_contact{
+position: absolute;
+left:800px;
+top:500px;
+
+}
+#vk_groups{
+
+position:absolute;
+right:150px;
+top:600px;
+
 }
