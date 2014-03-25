@@ -153,24 +153,53 @@ body {
 }
 
 .layer1{
-	
+	background-image:url(images/uslugi/ant_uslugi_earth.png);
+	width:65px;
+	height:66px;
 	position: relative;
 	left: 478;
 	top: 3;
 }
 
-.layer1 img:hover,
-.layer2 img:hover,
-.layer3 img:hover,
-.layer4 img:hover,
-.layer5 img:hover,.layer6 img:hover,.layer7 img:hover{
+.layer1 img:hover{
+	content:url("images/uslugi/ant_uslugi_earth.png");
+}
+
+.layer2 img:hover{
+	
+}
+
+.layer3 img:hover{
+	
+}
+
+.layer4 img:hover{
+	
+}
+.
+
+layer5 img:hover{
+	
+}
+
+.layer6 img:hover{
+	
+
+}
+
+.layer7 img:hover{
 	opacity:0.4;
 }
 .layer1,.layer2,.layer3,.layer4 ,.layer5 ,.layer6 ,.layer7{
 	width: 100px;
+	background-repeat: no-repeat;
 }
 
 .layer2{
+	background-image:url(images/uslugi/ant_uslugi_software_dev.png);
+	width:61px;
+	height:61px;
+	
 	position: relative;
 	top: 20;
 	left: 252;
@@ -826,25 +855,28 @@ body {
 
 /*  Contacts */
 #contacts{
-top:0px;
-left: 100px;
-position:relative;
-width: 750px;
-height: 200px;
-
+	margin:0px auto;
+	position:relative;
+	width: 1220px;
+	font-family:"Century Gothic";
+	color:#FFFFFF;
 }
 #contact{
-position: absolute;
-left: -10px;
+	position: absolute;
 }
 #services{
-  position: absolute;
-  left: 470px;
+  	position: absolute;
+  	left: 470px;
+  	font-size:2.25em;
+}
+
+#services p{
+	font-size:0.7em;
 }
 #conntact_word{
-
    position: relative;
-   left: 200px;
+   text-align:center;
+   font-size:3em;
 }
 
 #img{
