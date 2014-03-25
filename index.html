@@ -13,21 +13,21 @@
 		<script src="js/jquery.parallaxSlider.js" language="javascript"></script>	
 		
 
-<script type="text/javascript">
-jQuery(document).ready(function($){
-	var easing = 'swing';
-	$("#slider").parallaxSlider({
-		autoPlay:5000,//false to disable, otherwise int duration in ms hold between slides
-		speed:2000, //transition duration between slides
-		easing: 'swing',
-		numBackgrounds: 4,
-		thumbRotation:false,
-		// hash: false,
-		// debug:true,
-		css3: true,
-		easingCSS3: 'cubic-bezier(0.000, 0.265, 1.000, 0.005)',
-	});
-})
+			<script type="text/javascript">
+			jQuery(document).ready(function($){
+			var easing = 'swing';
+			$("#slider").parallaxSlider({
+			autoPlay:5000,//false to disable, otherwise int duration in ms hold between slides
+			speed:2000, //transition duration between slides
+			easing: 'swing',
+			numBackgrounds: 4,
+			thumbRotation:false,
+			// hash: false,
+			// debug:true,
+			css3: true,
+			easingCSS3: 'cubic-bezier(0.000, 0.265, 1.000, 0.005)',
+			});
+		})
 
 </script>
 			<script>
@@ -163,11 +163,13 @@ jQuery(document).ready(function($){
 			<!--P O R T F O L I O-->
 
 			<div id="portfolio_bg">
-				<div class="portfolio_glav" align="center">
-				<div class="portfolio_h1" align="center">
-				
-  						   <p>Портфолио</p>
-					<br></div>
+
+				<div id="portfolio_h1" align="center">	
+					
+  						  <p align="center">Портфолио</p>
+
+  						</div>
+				<div id="portfolio_gl">	
   						<table align="center">
   							<tr>
   								<th scope="col"><a class="fancybox" href="#inline1" >
@@ -201,9 +203,9 @@ jQuery(document).ready(function($){
      							</p>
 								<em>
 									
-										<img src="images/portfolio/site1.jpg" width="auto" height="auto">
-										<img src="images/portfolio/site1.jpg" width="auto" height="auto">
-										<img src="images/portfolio/site1.jpg" width="auto" height="auto">
+										<img src="images/portfolio/site1.jpg">
+										<img src="images/portfolio/site1.jpg">
+										<img src="images/portfolio/site1.jpg">
 									
 								</em>
     						</div>
@@ -223,6 +225,7 @@ jQuery(document).ready(function($){
 						</div>
 					</div>
 				</div>
+			</div>
 			</div>
 			
 			<!--B U D G E T-->
@@ -264,14 +267,14 @@ jQuery(document).ready(function($){
 					</div>
 				</div>
 			</div>
-			</div>
+			
 			<!--I M I G E-->
 			<div id="imige_bg">
 				<div id="slider" class="slider" >
 	<div class="pxs_bg">
 	</div>
 	<!-- Background classes will be automatically generated, CSS must specify background images to use, see style.css for instructions -->
-	<div class="pxs_loading">Загрузка...</div>
+	<div class="pxs_loading">Loading images...</div>
 	<div class="pxs_slider_wrapper">
 		<ul class="pxs_slider">
 			<li>
@@ -317,24 +320,32 @@ jQuery(document).ready(function($){
 			
 			<!--C O N T A C T S-->
 			<div id="contacts_bg">
-				<!--Place your code here-->
+				<!--Place your code here--><br>
 				<div id = "contacts">
+					<div id = "conntact_word"><center><font face="Century Gothic" color="FFFFFF" size="8">Контакты</font></center></div><!--conntact_word --><br>
+					<div id = "contact"><font face="Century Gothic" color="FFFFFF" size="5">Почта:<br>knewit.kz@gmail.com <br><br>Телефон:<br>8 (701) <font face="Century Gothic" color="FFFFFF" size="6">938-04-63</font></font>
 
-					<div id = "text_contact"><center><font face="Century Gothic" color="FFFFFF" size="8">Контакты</font></center><br>
-					</div>
 
-					<div id = "contacts2"><font face="Century Gothic" color="FFFFFF" size="5">Почта:<br>knewit.kz@gmail.com <br><br>Телефон:<br>8 (701) <font face="Century Gothic" color="FFFFFF" size="6">938-04-63</font></font></div>
+
+					</div><!-- contact-->
 
 					<div id = "services"><font face="Century Gothic" color="FFFFFF" size="6">Услуги:</font>
-					<div id = "service1"><font face="Century Gothic" color="FFFFFF" size="5"><p>- Создание сайтов и порталов<p></font></div>
-					<div id = "service2"><font face="Century Gothic" color="FFFFFF" size="5"><p>- Создание ПО<p></font></div>
-				<div id = "service2"><font face="Century Gothic" color="FFFFFF" size="5"><p>- Продвижения сайтов SMM,SEO<p></font></div>
-				<div id = "service2"><font face="Century Gothic" color="FFFFFF" size="5"><p>- Создание Видео<p></font></div>
-				<div id = "service2"><font face="Century Gothic" color="FFFFFF" size="5"><p>- Дизайн<p></font></div>
-			<div id = "service2"><font face="Century Gothic" color="FFFFFF" size="5"><p>- 3D - Тур<p></font></div>
 
-					</div>
-					<!--  -->
+						<font face="Century Gothic" color="FFFFFF" size="5"><p>- Создание сайтов и порталов<p></font>
+						<font face="Century Gothic" color="FFFFFF" size="5"><p>- Создание ПО<p></font>
+						<font face="Century Gothic" color="FFFFFF" size="5"><p>- Продвижения сайтов SMM,SEO<p></font>
+						<font face="Century Gothic" color="FFFFFF" size="5"><p>- Создание Видео<p></font>
+						<font face="Century Gothic" color="FFFFFF" size="5"><p>- Дизайн<p></font>
+						<font face="Century Gothic" color="FFFFFF" size="5"><p>- 3D-Тур<p></font>
+
+						<div id = "img">
+						<a href="http://www.twitter.com" title = "Twitter"><img src="images/soc-buttons/twitter.png"></a>
+						<a href="http://www.googleplus.com" title = "Google+"><img src="images/soc-buttons/google.jpg"></a>
+					
+						<a href="http://www.facebook.com" title = "Facebook"><img src="images/soc-buttons/facebook.png"></a>
+							</div>
+					</div><!-- services-->
+
 					<div id = "vk">
 
 					<script type="text/javascript" src="http://userapi.com/js/api/openapi.js?14"></script>
@@ -344,17 +355,13 @@ jQuery(document).ready(function($){
 					<script type="text/javascript">
 					VK.Widgets.Group("vk_groups", {mode: 0, width: "300", height: "400", color1: 'FFFFFF', color2: '#000080', color3: '#696969'}, 50281905);
 					</script>
-
-
-
-					</div>
-
-				</div>
+					</div> <!--vk-->
+					
+				</div><!--Conntacts-->
 				
-			</div>
+			</div><!-- Conntacts bg -->
+
 			<div id="bottom_bg"></div>
-		</div>
-		
 		
 	</body>
 </html>

@@ -41,7 +41,7 @@ BODY
 	margin-right: auto;
 	position: relative;
 	left: 0px;
-	top: 150px;
+	top: 130px;
 }
 .pxs_bg
 {
@@ -106,7 +106,7 @@ UL.pxs_slider LI IMG
 }
 /*[clearfix]*/UL.pxs_thumbnails
 {
-	height: 160px;
+	height: 200px;
 	position: absolute;
 	top: 315px;
 	width: 100%;
